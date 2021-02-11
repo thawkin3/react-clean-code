@@ -9,3 +9,5 @@ Simple examples to write cleaner React code
 2. Conditional rendering: If you need to conditionally render one thing when a condition is `true` and render a different thing when a condition is `false`, use a ternary.
 
 3. Boolean props: A truthy prop can be provided to a component with just the prop name like `myTruthyProp`. Writing it like `myTruthyProp={true}` is unnecessary.
+
+4. String props: A string value can be provided as a prop value in double quotes without the use of curly braces or backticks.

@@ -5,11 +5,13 @@ import { ConditionalRenderingBad } from './components/02-conditional-rendering-b
 import { ConditionalRenderingGood } from './components/02-conditional-rendering-good'
 import { BooleanPropBad } from './components/03-boolean-props-bad'
 import { BooleanPropGood } from './components/03-boolean-props-good'
+import { StringPropValuesBad } from './components/04-string-prop-values-bad'
+import { StringPropValuesGood } from './components/04-string-prop-values-good'
 import './App.css'
 
 export const App = () => (
-  <main className="app">
-    <header className="header">
+  <main>
+    <header>
       <h1>React Clean Code</h1>
     </header>
 
@@ -34,6 +36,14 @@ export const App = () => (
       <BooleanPropBad />
       <br />
       <BooleanPropGood />
+    </section>
+    <hr />
+
+    <section>
+      <h2>04. String Prop Values</h2>
+      <StringPropValuesBad />
+      <br />
+      <StringPropValuesGood />
     </section>
     <hr />
   </main>
