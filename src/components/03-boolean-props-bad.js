@@ -1,14 +1,19 @@
 import React from 'react'
 
 const HungryMessage = ({ isHungry }) => (
-  <p>{isHungry ? 'I am hungry' : 'I am full'}</p>
+  <span>{isHungry ? 'I am hungry' : 'I am full'}</span>
 )
 
 export const BooleanPropBad = () => (
   <div>
-    <p>This person is hungry:</p>
+    <span>
+      <b>This person is hungry: </b>
+    </span>
     <HungryMessage isHungry={true} />
-    <p>This person is full:</p>
+    <br />
+    <span>
+      <b>This person is full: </b>
+    </span>
     <HungryMessage isHungry={false} />
   </div>
 )
