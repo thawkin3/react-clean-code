@@ -5,3 +5,11 @@ h1 {
 section {
   margin: 2rem 0;
 }
+
+h3.bad {
+  color: red;
+}
+
+h3.good {
+  color: green;
+}

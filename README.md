@@ -15,3 +15,5 @@ Simple examples to write cleaner React code
 5. Unnecessary anonymous event handler functions: If an event handler only takes a single argument for the `Event` object, you can just provide the function as the event handler like `onChange={handleChange}`. You don't need to wrap the function in an anonymous function like `onChange={e => handleChange(e)}`.
 
 6. Unnecessary anonymous function components: When passing a component as a prop to another component, you don't need to wrap this passed component in a function if the component does not accept any props.
+
+7. Undefined props: Undefined props are excluded, so don't worry about providing an `undefined` fallback if it's ok for the prop to be undefined.

@@ -11,6 +11,8 @@ import { UnnecessaryAnonymousFunctionsBad } from './components/05-unnecessary-an
 import { UnnecessaryAnonymousFunctionsGood } from './components/05-unnecessary-anonymous-functions-good'
 import { UnnecessaryAnonymousFunctionComponentsBad } from './components/06-unnecessary-anonymous-function-components-bad'
 import { UnnecessaryAnonymousFunctionComponentsGood } from './components/06-unnecessary-anonymous-function-components-good'
+import { UndefinedPropsBad } from './components/07-undefined-props-bad'
+import { UndefinedPropsGood } from './components/07-undefined-props-good'
 import './App.css'
 
 export const App = () => (
@@ -21,51 +23,72 @@ export const App = () => (
 
     <section>
       <h2>01. Conditional Rendering Only for One Condition</h2>
+      <h3 className="bad">Bad</h3>
       <ConditionalRenderingWhenTrueBad />
       <br />
+      <h3 className="good">Good</h3>
       <ConditionalRenderingWhenTrueGood />
     </section>
     <hr />
 
     <section>
       <h2>02. Conditional Rendering on Either Condition</h2>
+      <h3 className="bad">Bad</h3>
       <ConditionalRenderingBad />
       <br />
+      <h3 className="good">Good</h3>
       <ConditionalRenderingGood />
     </section>
     <hr />
 
     <section>
       <h2>03. Boolean Props</h2>
+      <h3 className="bad">Bad</h3>
       <BooleanPropBad />
       <br />
+      <h3 className="good">Good</h3>
       <BooleanPropGood />
     </section>
     <hr />
 
     <section>
       <h2>04. String Prop Values</h2>
+      <h3 className="bad">Bad</h3>
       <StringPropValuesBad />
       <br />
+      <h3 className="good">Good</h3>
       <StringPropValuesGood />
     </section>
     <hr />
 
     <section>
       <h2>05. Unnecessary Anonymous Functions</h2>
+      <h3 className="bad">Bad</h3>
       <UnnecessaryAnonymousFunctionsBad />
       <br />
       <br />
+      <h3 className="good">Good</h3>
       <UnnecessaryAnonymousFunctionsGood />
     </section>
     <hr />
 
     <section>
       <h2>06. Unnecessary Anonymous Function Components</h2>
+      <h3 className="bad">Bad</h3>
       <UnnecessaryAnonymousFunctionComponentsBad />
       <br />
-      <br />
+      <h3 className="good">Good</h3>
       <UnnecessaryAnonymousFunctionComponentsGood />
+    </section>
+    <hr />
+
+    <section>
+      <h2>07. Undefined Props</h2>
+      <h3 className="bad">Bad</h3>
+      <UndefinedPropsBad />
+      <br />
+      <h3 className="good">Good</h3>
+      <UndefinedPropsGood />
     </section>
     <hr />
   </main>
