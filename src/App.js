@@ -7,6 +7,8 @@ import { BooleanPropBad } from './components/03-boolean-props-bad'
 import { BooleanPropGood } from './components/03-boolean-props-good'
 import { StringPropValuesBad } from './components/04-string-prop-values-bad'
 import { StringPropValuesGood } from './components/04-string-prop-values-good'
+import { UnnecessaryAnonymousFunctionsBad } from './components/05-unnecessary-anonymous-functions-bad'
+import { UnnecessaryAnonymousFunctionsGood } from './components/05-unnecessary-anonymous-functions-good'
 import './App.css'
 
 export const App = () => (
@@ -44,6 +46,15 @@ export const App = () => (
       <StringPropValuesBad />
       <br />
       <StringPropValuesGood />
+    </section>
+    <hr />
+
+    <section>
+      <h2>05. Unnecessary Anonymous Functions</h2>
+      <UnnecessaryAnonymousFunctionsBad />
+      <br />
+      <br />
+      <UnnecessaryAnonymousFunctionsGood />
     </section>
     <hr />
   </main>
