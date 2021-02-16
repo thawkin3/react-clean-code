@@ -12,12 +12,12 @@ export const PreviousStateGood = () => {
   }
 
   return (
-    <>
+    <div>
       <button disabled={isDisabled}>
         I'm {isDisabled ? 'disabled' : 'enabled'}
       </button>
       <button onClick={toggleButton}>Toggle button state</button>
       <button onClick={toggleButton2Times}>Toggle button state 2 times</button>
-    </>
+    </div>
   )
 }
