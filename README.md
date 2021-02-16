@@ -13,3 +13,5 @@ Simple examples to write cleaner React code
 4. String props: A string value can be provided as a prop value in double quotes without the use of curly braces or backticks.
 
 5. Unnecessary anonymous event handler functions: If an event handler only takes a single argument for the `Event` object, you can just provide the function as the event handler like `onChange={handleChange}`. You don't need to wrap the function in an anonymous function like `onChange={e => handleChange(e)}`.
+
+6. Unnecessary anonymous function components: When passing a component as a prop to another component, you don't need to wrap this passed component in a function if the component does not accept any props.

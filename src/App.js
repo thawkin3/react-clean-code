@@ -9,6 +9,8 @@ import { StringPropValuesBad } from './components/04-string-prop-values-bad'
 import { StringPropValuesGood } from './components/04-string-prop-values-good'
 import { UnnecessaryAnonymousFunctionsBad } from './components/05-unnecessary-anonymous-functions-bad'
 import { UnnecessaryAnonymousFunctionsGood } from './components/05-unnecessary-anonymous-functions-good'
+import { UnnecessaryAnonymousFunctionComponentsBad } from './components/06-unnecessary-anonymous-function-components-bad'
+import { UnnecessaryAnonymousFunctionComponentsGood } from './components/06-unnecessary-anonymous-function-components-good'
 import './App.css'
 
 export const App = () => (
@@ -55,6 +57,15 @@ export const App = () => (
       <br />
       <br />
       <UnnecessaryAnonymousFunctionsGood />
+    </section>
+    <hr />
+
+    <section>
+      <h2>06. Unnecessary Anonymous Function Components</h2>
+      <UnnecessaryAnonymousFunctionComponentsBad />
+      <br />
+      <br />
+      <UnnecessaryAnonymousFunctionComponentsGood />
     </section>
     <hr />
   </main>
