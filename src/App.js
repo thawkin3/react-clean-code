@@ -102,6 +102,5 @@ export const App = () => (
       <h3 className="good">Good</h3>
       <PreviousStateGood />
     </section>
-    <hr />
   </main>
 )

@@ -19,3 +19,11 @@ Simple examples to write cleaner React code
 7. **Undefined props**: Undefined props are excluded, so don't worry about providing an `undefined` fallback if it's ok for the prop to be undefined.
 
 8. **Setting state that relies on the previous state**: Always set state as a function of the previous state if the new state relies on the previous state.
+
+## Honorable Mention
+
+The following practices are not React-specific but rather are good practices for writing clean code in JavaScript (and any programming language, for that matter).
+
+- Extract complex logic into clearly-named functions
+- Extract magic numbers into constants
+- Use clearly named variables
