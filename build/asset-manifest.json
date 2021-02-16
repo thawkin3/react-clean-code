@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-clean-code/build/static/css/main.c324548c.chunk.css",
+    "main.js": "/react-clean-code/build/static/js/main.d3c53463.chunk.js",
+    "main.js.map": "/react-clean-code/build/static/js/main.d3c53463.chunk.js.map",
+    "runtime-main.js": "/react-clean-code/build/static/js/runtime-main.d2093cd0.js",
+    "runtime-main.js.map": "/react-clean-code/build/static/js/runtime-main.d2093cd0.js.map",
+    "static/js/2.2e9eb125.chunk.js": "/react-clean-code/build/static/js/2.2e9eb125.chunk.js",
+    "static/js/2.2e9eb125.chunk.js.map": "/react-clean-code/build/static/js/2.2e9eb125.chunk.js.map",
+    "index.html": "/react-clean-code/build/index.html",
+    "static/css/main.c324548c.chunk.css.map": "/react-clean-code/build/static/css/main.c324548c.chunk.css.map",
+    "static/js/2.2e9eb125.chunk.js.LICENSE.txt": "/react-clean-code/build/static/js/2.2e9eb125.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2093cd0.js",
+    "static/js/2.2e9eb125.chunk.js",
+    "static/css/main.c324548c.chunk.css",
+    "static/js/main.d3c53463.chunk.js"
+  ]
+}
