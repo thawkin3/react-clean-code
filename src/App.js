@@ -13,6 +13,8 @@ import { UnnecessaryAnonymousFunctionComponentsBad } from './components/06-unnec
 import { UnnecessaryAnonymousFunctionComponentsGood } from './components/06-unnecessary-anonymous-function-components-good'
 import { UndefinedPropsBad } from './components/07-undefined-props-bad'
 import { UndefinedPropsGood } from './components/07-undefined-props-good'
+import { PreviousStateBad } from './components/08-previous-state-bad'
+import { PreviousStateGood } from './components/08-previous-state-good'
 import './App.css'
 
 export const App = () => (
@@ -89,6 +91,16 @@ export const App = () => (
       <br />
       <h3 className="good">Good</h3>
       <UndefinedPropsGood />
+    </section>
+    <hr />
+
+    <section>
+      <h2>08. Setting State That Relies on the Previous State</h2>
+      <h3 className="bad">Bad</h3>
+      <PreviousStateBad />
+      <br />
+      <h3 className="good">Good</h3>
+      <PreviousStateGood />
     </section>
     <hr />
   </main>

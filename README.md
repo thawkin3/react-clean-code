@@ -17,3 +17,5 @@ Simple examples to write cleaner React code
 6. Unnecessary anonymous function components: When passing a component as a prop to another component, you don't need to wrap this passed component in a function if the component does not accept any props.
 
 7. Undefined props: Undefined props are excluded, so don't worry about providing an `undefined` fallback if it's ok for the prop to be undefined.
+
+8. Setting state that relies on the previous state: Always set state as a function of the previous state if the new state relies on the previous state.
